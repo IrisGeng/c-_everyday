@@ -1,0 +1,25 @@
+
+/* ADD NUMBERS TOGETHER/
+
+#include <iostream>
+
+using namespace std;
+
+int addNumbers(int x,int y,int z,int a){
+    int result=x+y+z+a;
+    return result;
+}
+
+int main()
+{
+    int a,x,y,z,result;
+   cin>>x;
+   cin>>y;
+   cin>>a;
+   cin>>z;
+   
+  cout<< addNumbers(x,y,z,a);
+    
+
+    return 0;
+};
