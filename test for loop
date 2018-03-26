@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+
+int twonum(int num[],int numlen)  
+{int n=0;
+    for (int i=0; i< numlen-1; i++){
+    if(num[i]<num[i+1]){n=num[i];};
+};
+return n;
+    
+}
+
+
+int main()
+{
+   
+    int num[]={1,2,3,6,7,8};
+    int numlen=sizeof(num)/sizeof(num[0]);
+    cout<<twonum(num,numlen);
+
+    return 0;
+}
