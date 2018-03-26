@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int twonum(int num[],int target)
+{for (int i=0; i<int numlen; i++){
+for(int j=i+1; j<int numlen; j++){
+if (num[j]==target-num[i]){
+    return new int[]{i,j};
+    
+}}}
+
+
+int main()
+{
+    int target=9;
+    int num[]={1,2,3,6,7,8};
+    int numlen=sizeof(num)/sizeof(num[0]);
+    cout<<int twonum[];
+
+    return 0;
+}
+
+/* still have some errors in the code/
