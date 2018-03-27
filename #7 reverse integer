@@ -1,0 +1,28 @@
+Given a 32-bit signed integer, reverse digits of an integer.
+Example:
+Input: 123
+Output:  321
+Note:
+Assume we are dealing with an environment which could only hold integers within the 32-bit signed integer range. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+
+
+/* need to consider 32-bits/
+
+#include <iostream>
+
+using namespace std;
+
+int reverse(int x){
+    long rel=0;
+    while(x!=0){
+        rel=rel*10+x%10;
+        x/=10;}
+        return rel; 
+        }
+
+
+int main()
+{
+    int x=658;
+    cout<<reverse(x);
+    }
